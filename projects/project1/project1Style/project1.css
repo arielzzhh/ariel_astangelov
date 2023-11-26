@@ -1,0 +1,125 @@
+* {
+  font-size: 2vh;
+}
+
+header {
+  display: flex;
+  border-bottom: black solid 0.1px;
+  z-index: 3;
+  background-color: white;
+  height: 7vh;
+  align-items: center;
+  font-size: 1em;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  letter-spacing: 0px;
+}
+header #headerButtons {
+  display: flex;
+}
+header #headerButtons p {
+  width: 14vw;
+}
+header #headerButtons p a {
+  text-decoration: none;
+  color: black;
+}
+header #SpeicalHeader {
+  position: relative;
+  left: 30%;
+}
+header #SpeicalHeader #SpeicalHeaderLogo {
+  width: 6vw;
+  height: 6vh;
+}
+header #SpeicalHeader #SpeicalHeaderPicture {
+  height: 7vh;
+}
+
+#tikAvodot {
+  height: 36vh;
+  width: 100vw;
+  background-image: linear-gradient(to right, rgb(31, 183, 145), rgb(0, 255, 166));
+  display: flex;
+  justify-content: center;
+}
+#tikAvodot #tikavodotText {
+  position: relative;
+  top: 20%;
+}
+#tikAvodot #tikavodotText #tikHeader {
+  display: flex;
+  justify-content: center;
+}
+#tikAvodot #tikavodotText #tikMain {
+  position: relative;
+  width: 50%;
+  left: 25%;
+}
+
+#icons {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+}
+
+#project1 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #EBFEFF;
+  color: white;
+}
+#project1 #fullSizeProject {
+  width: 60vw;
+  height: 70vh;
+  border: black solid 2px;
+  position: relative;
+  left: 20vw;
+  top: 20vh;
+  background-color: white;
+}
+
+#blackDiv {
+  background-color: rgba(26, 26, 26, 0.831372549);
+}
+
+#copyRight {
+  background-color: #000000;
+  color: #1AE0EC;
+  border-bottom: #1AE0EC 2px solid;
+}
+
+@media all and (max-width: 680px) {
+  #fullSizeProject {
+    background-image: url(images/bodyOfProject1.png);
+    background-size: 100% 40%;
+    background-repeat: no-repeat;
+  }
+  #blackDiv {
+    width: 70%;
+    height: 50%;
+    position: relative;
+    left: 15%;
+    top: 15%;
+  }
+  #blackDiv {
+    font-size: 2.5vw;
+  }
+}
+@media all and (min-width: 680px) {
+  #fullSizeProject {
+    background-image: url(images/bodyOfProject1.png);
+    background-size: 100% 60%;
+    background-repeat: no-repeat;
+  }
+  #blackDiv {
+    position: relative;
+    left: 10%;
+    top: 20%;
+    width: 25%;
+    height: 35vh;
+  }
+}/*# sourceMappingURL=project1.css.map */

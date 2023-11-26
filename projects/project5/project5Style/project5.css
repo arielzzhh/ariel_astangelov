@@ -1,0 +1,172 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  border-bottom: black solid 0.1px;
+  z-index: 3;
+  background-color: white;
+  height: 7vh;
+  align-items: center;
+  font-size: 1em;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  letter-spacing: 0px;
+}
+header #headerButtons {
+  display: flex;
+}
+header #headerButtons p {
+  width: 14vw;
+}
+header #headerButtons p a {
+  text-decoration: none;
+  color: black;
+}
+header #SpeicalHeader {
+  position: relative;
+  left: 30%;
+}
+header #SpeicalHeader #SpeicalHeaderLogo {
+  width: 6vw;
+  height: 6vh;
+}
+header #SpeicalHeader #SpeicalHeaderPicture {
+  height: 7vh;
+}
+
+#tikAvodot {
+  height: 40vh;
+  width: 100vw;
+  background-image: linear-gradient(to right, rgb(31, 183, 145), rgb(0, 255, 166));
+  display: flex;
+  justify-content: center;
+}
+#tikAvodot #tikavodotText {
+  position: relative;
+  top: 20%;
+}
+#tikAvodot #tikavodotText #tikHeader {
+  display: flex;
+  justify-content: center;
+}
+#tikAvodot #tikavodotText #tikMain {
+  position: relative;
+  width: 50%;
+  left: 25%;
+}
+
+#icons {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+}
+
+#project5 {
+  width: 100vw;
+  height: 100vh;
+  background-color: #EBFEFF;
+}
+#project5 #fullSizeProject {
+  width: 60vw;
+  height: 70vh;
+  border: black solid 2px;
+  position: relative;
+  left: 20vw;
+  top: 20vh;
+}
+
+#copyRight {
+  background-color: #000000;
+  color: #1AE0EC;
+  border-bottom: #1AE0EC 2px solid;
+}
+
+input {
+  background-color: #EBFEFF;
+  border-bottom: #FDBD03 3px solid;
+}
+
+@media all and (max-width: 685px) {
+  body {
+    font-size: 1em;
+  }
+  #freeadvice {
+    font-size: 1.9em;
+  }
+  #aboutMe {
+    height: 15vh;
+  }
+  #fullSizeProject {
+    background-color: white;
+    background-image: url(images/phone.png);
+    background-repeat: no-repeat;
+    background-size: 25% 20%;
+    background-position: 50% 12%;
+  }
+  #yellowBatch {
+    height: 2vh;
+    width: 45vw;
+    color: #FDBD03;
+    background-color: #FDBD03;
+  }
+  #freeAdviceForm {
+    position: relative;
+    top: 35%;
+    height: 35vh;
+    width: 250vw;
+    font-size: 1em;
+  }
+  #halfForm {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media all and (min-width: 685px) {
+  #yellowBatch2 {
+    position: relative;
+    background-color: #FDBD03;
+    color: #FDBD03;
+    left: 54.55%;
+    top: 28%;
+    height: 2vh;
+    width: 21vw;
+  }
+  body {
+    font-size: 3em;
+  }
+  #aboutMe {
+    height: 15vh;
+  }
+  #fullSizeProject {
+    background-color: white;
+    background-image: url(images/phone.png);
+    background-repeat: no-repeat;
+    background-size: 30% 70%;
+    background-position: 5% 25%;
+  }
+  #yellowBatch {
+    height: 2vh;
+    width: 21vw;
+    color: #FDBD03;
+    background-color: #FDBD03;
+  }
+  #freeAdviceForm {
+    font: normal normal 900 1em/1.3em Heebo;
+    position: relative;
+    top: 5%;
+    width: 55%;
+    height: 84%;
+  }
+  #halfForm {
+    display: flex;
+  }
+  .half-text {
+    width: 15vw;
+  }
+}/*# sourceMappingURL=project5.css.map */

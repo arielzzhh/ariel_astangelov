@@ -1,0 +1,210 @@
+header {
+    display: flex;
+    border-bottom: black solid 0.1px;
+    z-index: 3;
+    background-color: white;
+    height: 7vh;
+    align-items: center;
+    font-size: 1em;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    letter-spacing: 0px;
+
+    #headerButtons {
+        display: flex;
+
+        p {
+            width: 14vw;
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+
+        }
+
+
+    }
+
+
+    #SpeicalHeader {
+        position: relative;
+        left: 30%;
+
+
+        #SpeicalHeaderLogo {
+            width: 6vw;
+            height: 6vh;
+
+        }
+
+        #SpeicalHeaderPicture {
+            height: 7vh;
+
+        }
+    }
+
+}
+
+#tikAvodot {
+    height: 40vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, rgb(31, 183, 145), rgb(0, 255, 166));
+    display: flex;
+    justify-content: center;
+
+
+
+    #tikavodotText {
+        position: relative;
+        top: 20%;
+
+
+
+
+        #tikHeader {
+            display: flex;
+            justify-content: center;
+
+
+
+
+
+        }
+
+
+
+        #tikMain {
+            position: relative;
+            width: 50%;
+            left: 25%;
+        }
+    }
+
+
+}
+
+#icons {
+
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 3px 6px #00000029;
+
+
+
+
+}
+
+
+
+
+#project2 {
+    width: 100vw;
+    height: 100vh;
+    background-color: #EBFEFF;
+    color: white;
+
+
+
+    #fullSizeProject {
+        width: 60vw;
+        height: 60vh;
+        border: black solid 2px;
+        position: relative;
+        left: 20vw;
+        top: 5vh;
+        background: transparent linear-gradient(180deg, #281EFF 0%, #2DFF8C 100%) 0% 0% no-repeat padding-box;
+
+
+    }
+
+
+    input {
+        border: 0.3px solid white;
+    }
+
+
+
+}
+
+
+
+#copyRight {
+    background-color: #000000;
+    color: #1AE0EC;
+    border-bottom: #1AE0EC 2px solid;
+}
+
+
+
+
+
+
+
+
+@media all and (max-width:680px) {
+
+    body {
+
+        font-size: 3.6vw;
+    }
+
+
+
+
+    #aboutMe {
+        height: 15vh;
+        flex-direction: row;
+    }
+
+
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media all and (min-width:680px) {
+
+
+    body {
+
+        font-size: 1.4vw;
+    }
+
+    #hereAndNow {
+        font: normal normal normal 3vw/6vh Satisfy;
+
+
+    }
+
+
+
+
+    form {
+        display: flex;
+        justify-content: center;
+    }
+
+    input {
+        width: 15vw;
+        height: 4vh;
+    }
+
+}
