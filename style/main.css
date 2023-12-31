@@ -4,7 +4,7 @@
 }
 
 #aboutMe {
-  height: 75vh;
+  height: 100vh;
   background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(195, 194, 194), rgb(255, 255, 255));
 }
 #aboutMe #personalImgDiv {
@@ -53,6 +53,18 @@
   height: 50vh;
 }
 
+.jsProject {
+  border: black solid 2px;
+  width: 33%;
+  height: 40vh;
+}
+
+#jsrow1 {
+  margin-top: 15vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
 #contactMe {
   background-color: #3A3A3A;
   width: 100vw;
@@ -76,6 +88,20 @@
   }
 }
 @media all and (max-width: 700px) {
+  #jsrow1 {
+    flex-direction: column;
+    position: relative;
+    left: 30%;
+    height: 100%;
+    width: 100vw;
+  }
+  #jsrow2 {
+    flex-direction: column;
+    position: relative;
+    left: 30%;
+    height: 100%;
+    width: 100vw;
+  }
   #personalImg {
     width: 10%;
     height: 20vw;

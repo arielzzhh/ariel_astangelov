@@ -34,7 +34,7 @@ header #SpeicalHeader #SpeicalHeaderPicture {
 }
 
 #tikAvodot {
-  height: 50vh;
+  height: 35vh;
   width: 100vw;
   background-image: linear-gradient(to right, rgb(31, 183, 145), rgb(0, 255, 166));
   display: flex;
@@ -42,7 +42,7 @@ header #SpeicalHeader #SpeicalHeaderPicture {
 }
 #tikAvodot #tikavodotText {
   position: relative;
-  top: 20%;
+  top: 10%;
 }
 #tikAvodot #tikavodotText #tikHeader {
   display: flex;
