@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body style="background-color: rgb(128, 126, 145);">
+    <p class="text-center">ariel astangelov trivia </p>
+
+
+    <div class="container" id="endScreen" style="display: none; background-color: blanchedalmond;">
+        <div id="betweenScreen" style="width: 100vw; height: 25vh;" class="row">
+            <p class="col-6" id="yourEndScore">your End Score this run is : </p>
+            <p class="col-6" id="yourHighScore"></p>
+            <button class="col-6 btn" id="retakeTheExam">retake the exam</button>
+        </div>
+    </div>
+
+
+
+    <div id="tutrial" style="width: 100vw; height: 100vh; background-color: bisque; ">
+
+        <p class="text-center">hello and welcome to my trivia app,try to get as much right answer as possible</p>
+
+
+
+        <p style="border: 3px solid brown;  cursor: pointer;" class="text-center ; " id="start">startTrivia</p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="components" class=" container">
+        <div class="row ">
+
+            <p style="border :blue; background-color: red;" id="amountsOfPoints" class="col-4 text-center"></p>
+            <p style="border :blue; background-color: red;" id="amountsOfLifes" class="col-4 text-center"></p>
+            <p style="border :blue; background-color: red;" id="Highscore" class="col-4 text-center"></p>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <div id="trivia" class="container" style="display: none;">
+        <div class="row  ;">
+
+
+            <p id="question" style="cursor: pointer; height: 20vh; border: black solid 2px; background-color: azure;"
+                class="col-12 text-center">question</p>
+            <p id="answer1" style="cursor: pointer; height: 10vh; border: black solid 2px; background-color: beige;"
+                class="col-12 text-center">answer</p>
+            <p id="answer2" style="cursor: pointer; height: 10vh; border: black solid 2px; background-color: beige;"
+                class="col-12 text-center">answer</p>
+            <p id="answer3" style="cursor: pointer; height: 10vh; border: black solid 2px; background-color: beige;"
+                class="col-12 text-center">answer</p>
+            <p id="answer4" style="cursor: pointer; height: 10vh; border: black solid 2px; background-color: beige;"
+                class="col-12 text-center">answer</p>
+
+            <button id="countinueButton" style="visibility: hidden;">Continue</button>
+
+        </div>
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script type="module" src="script/trivia.js"></script>
+
+</body>
+
+</html>
